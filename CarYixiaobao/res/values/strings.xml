@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易小宝demo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="string_company_info">易小宝 test demo</string>
+    <string name="string_owner"> </string>
+
+    <!-- 菜单定义 -->
+    <string name="string_btconfig">Connect Bluetooth</string>
+    <string name="string_open_amt">Statistics ON</string>
+    <string name="string_close_amt">Statistics OFF</string>
+    <string name="string_get_hbt">Driving Habits</string>
+    <string name="string_get_device">Device Information</string>
+    <string name="string_get_realtime">Current Time</string>
+    <string name="string_set_realtime">Set Time</string>
+    <string name="string_get_hisrecord">Driving Record</string>
+    <string name="string_clear_hisrecord">Clear All Driving Record</string>
+    <string name="string_get_dtc">Read DTC</string>
+    <string name="string_clr_dtc">Clear DTC</string>
+    <string name="string_set_adjust">Adjust ODO</string>
+    <string name="string_reset">Reset</string>
+    <string name="string_exit">Exit</string>
+    <string name="string_exit_info">Not connected bluetooth devices</string>
+    <string name="string_odo_info">Please input the ODD on your vehicle</string>
+
+    <!-- 按键定义 -->
+    <string name="string_start">Display ON</string>
+    <string name="string_stop">Display OFF</string>
+    <string name="string_sysmenu">Menu</string>
+
+    <!-- 显示标题定义 -->
+    <string name="lbl_msg_realtime_listening">Real-Time Monitoring</string>
+    <string name="lbl_msg_vihicle_amount">Vehicle Summary Statistics</string>
+    <string name="lbl_msg_vihicle_habit">Vehicle Driving Habits</string>
+    <string name="lbl_msg_device_info">Device Information</string>
+    <string name="lbl_msg_vihicle_dtc">Vehicle DTC</string>
+
+    <!-- 实时监测数据 -->
+    <string name="lbl_field_bat">BAT</string>
+    <string name="lbl_field_rpm">RPM</string>
+    <string name="lbl_field_vss">VSS</string>
+    <string name="lbl_field_tp">TP</string>
+    <string name="lbl_field_lod">LOD</string>
+    <string name="lbl_field_ect">ECT</string>
+    <string name="lbl_field_mpg">MPG</string>
+    <string name="lbl_field_avm">RAFE</string>
+    <string name="lbl_field_fli">FLI</string>
+    <string name="lbl_field_dtn">DTC</string>
+
+    <!-- 车辆统计数据 -->
+    <string name="lbl_field_dst">DST</string>
+    <string name="lbl_field_adst">T-DST</string>
+    <string name="lbl_field_tdst">ODO</string>
+    <string name="lbl_field_fue">Fuel</string>
+    <string name="lbl_field_tfue">T-Fuel</string>
+    <string name="lbl_field_acc">ACC.</string>
+    <string name="lbl_field_dec">DEC.</string> 
+
+    <string name="title_modify_rtc">Modify RTC</string>
+    <string name="msg_current_rtc">Current RTC</string>
+    <string name="msg_rtc_set_ok">RTC Modify Successfully.</string>
+    <string name="lbl_select_date">Select Date</string>
+    
+    <string name="lbl_query_by_date">Query</string>
+    <string name="lbl_query_all">Query All</string>
+    <string name="msg_get_data">Requesting Data...</string>
+    <string name="msg_ok">OK</string>
+    <string name="msg_cancel">Cancel</string>
+    <string name="msg_return">Return</string>
+    
+    <!-- 驾驶习惯数据 -->
+    <string name="lbl_field_tpc">T-IgnitionTimes</string>
+    <string name="lbl_field_tpc_times">---- Times</string>
+    <string name="lbl_field_tmt">T-TravelTime</string>
+    <string name="lbl_field_tst">A-IdleTime</string>
+    <string name="lbl_field_awt">A-HotTime</string>
+    <string name="lbl_field_asp">A-VSS</string>
+    <string name="lbl_field_msp">M-VSS</string>
+    <string name="lbl_field_mrp">M-RPM</string>
+    <string name="lbl_field_tacc">T-ACC.</string>
+    <string name="lbl_field_tdec">T-DEC.</string>
+
+    <!-- 设备信息数据 -->
+    <string name="lbl_field_protocol">Vehicle Protocol</string>
+    <string name="lbl_field_sn">Device Serial No.</string>
+    <string name="lbl_field_btname">BT Name</string>
+    <string name="lbl_field_hardver">Hardware Version</string>
+    <string name="lbl_field_softver">Sofeware Version</string>
+
+    <!-- 汽车诊断数据 -->
+    <string name="lbl_field_tcc">DTC Number</string>
+    <string name="lbl_field_tcd">DTC Code</string>
+
+    <!-- 蓝牙模块定义 -->
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+    <string name="button_scan">Scaning</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="bluetooth_begin_turing_on">Ready to open the bluetooth...</string>
+    <string name="bluetooth_turing_on">Opening the bluetooth...</string>
+
+    <!-- 历史行车记录字段定义 -->
+    <string name="his_id">ID</string>
+    <string name="his_start_time">Start Time</string>
+    <string name="his_end_time">End Time</string>
+    <string name="his_total_time">Total Time</string>
+    <string name="his_dst">Driving Dis.</string>
+    <string name="his_time">Driving Time</string>
+    <string name="his_Idle_Time">Idle Time</string>
+    <string name="his_drv_fue">Drive Fuel</string>
+    <string name="his_idl_fue">Idle Fuel</string>
+    <string name="his_total_fue">Total Fuel</string>
+    <string name="his_max_vss">Max Speed</string>
+    <string name="his_avg_speed">Avg Speed</string>
+    <string name="his_max_rpm">Max RPM</string>
+    <string name="his_hot_time">Hot Time</string>
+    <string name="his_speed_up">Sharp Acc.</string>
+    <string name="his_slow_dwon">Sharp Dec.</string>
+    
+
+</resources>

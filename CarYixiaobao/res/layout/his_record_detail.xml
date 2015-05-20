@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="4.0dip"
+    android:fitsSystemWindows="true"
+    android:stretchColumns="0,1,2,3" >
+    
+    <!-- 序号 & 热车时间-->
+    <TableRow
+        android:id="@+id/TableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_1"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_id" />
+        
+        <TextView
+           android:id="@+id/txv_his_id_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_10"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_hot_time" />
+        
+        <TextView
+           android:id="@+id/txv_his_hot_time_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+    </TableRow>
+    
+    <!-- 开始时间 -->
+    <TableRow
+        android:id="@+id/TableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_2"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:layout_span="1"
+           android:text="@string/his_start_time" />
+        
+        <TextView
+           android:id="@+id/txv_his_start_time_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:layout_span="3"
+           android:text="----" />
+        
+    </TableRow>
+    
+    <!-- 结束时间 -->
+    <TableRow
+        android:id="@+id/TableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_3"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:layout_span="1"
+           android:text="@string/his_end_time" />
+        
+        <TextView
+           android:id="@+id/txv_his_end_time_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:layout_span="3"
+           android:text="----" />
+        
+    </TableRow>
+    
+     <!-- 总时长 & 本次里程 -->
+    <TableRow
+        android:id="@+id/TableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_4"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_total_time" />
+        
+        <TextView
+           android:id="@+id/txv_his_total_time_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_5"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_dst" />
+        
+        <TextView
+           android:id="@+id/txv_his_dst_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+    </TableRow>
+    
+    <!-- 行驶时长 & 怠速时长 -->
+    <TableRow
+        android:id="@+id/TableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_6"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_time" />
+        
+        <TextView
+           android:id="@+id/txv_his_time_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_7"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_Idle_Time" />
+        
+        <TextView
+           android:id="@+id/txv_his_Idle_Time_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+    </TableRow>
+    
+    <!-- 耗油量 -->
+    <TableRow
+        android:id="@+id/TableRow7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_8"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_drv_fue" />
+        
+        <TextView
+           android:id="@+id/txv_his_drv_fue_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_9"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_idl_fue" />
+        
+        <TextView
+           android:id="@+id/txv_his_idl_fue_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+    </TableRow>
+    
+    <!-- 总耗油  & 最高转速 -->
+    <TableRow
+        android:id="@+id/TableRow8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_10"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_total_fue" />
+        
+        <TextView
+           android:id="@+id/txv_his_total_fue_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_11"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_max_rpm" />
+        
+        <TextView
+           android:id="@+id/txv_his_max_rpm_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+    </TableRow>
+    
+    <!-- 平均车速 & 最高车速 -->
+    <TableRow
+        android:id="@+id/TableRow9"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_12"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_avg_speed" />
+        
+        <TextView
+           android:id="@+id/txv_his_avg_speed_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_13"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_max_vss" />
+        
+        <TextView
+           android:id="@+id/txv_his_max_vss_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+    </TableRow>
+    
+     <!-- 急加速  & 急减速 -->
+    <TableRow
+        android:id="@+id/TableRow10"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="2.0dip"  >
+	
+        <TextView
+           android:id="@+id/his_14"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_speed_up" />
+        
+        <TextView
+           android:id="@+id/txv_his_speed_up_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+        
+        <TextView
+           android:id="@+id/his_15"
+           style="@style/lbl_msg_style"
+           android:layout_gravity="left"
+           android:text="@string/his_slow_dwon" />
+        
+        <TextView
+           android:id="@+id/txv_his_slow_dwon_value"
+           style="@style/field_value_style"
+           android:layout_gravity="left"
+           android:text="----" />
+    </TableRow>
+    
+    <View android:layout_width="fill_parent"
+             android:layout_height="1dip"
+              android:layout_marginTop="5.0dip"  
+              android:background="#CCCCCC" />
+    
+</TableLayout>

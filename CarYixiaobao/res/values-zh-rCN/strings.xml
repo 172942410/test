@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">易小宝demo</string>
+    <string name="app_name2">易小宝demo2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">设置</string>
+    <string name="string_company_info">进入易小宝汽车控制&#8230;</string>
+    <string name="string_owner"> </string>
+    
+    <!-- 菜单定义 -->
+	<string name="string_btconfig">连接蓝牙</string>
+	<string name="string_open_amt">打开统计</string>
+	<string name="string_close_amt">关闭统计</string>
+	<string name="string_get_hbt">驾驶习惯</string>
+	<string name="string_get_device">设备信息</string>	
+	<string name="string_get_realtime">获取时间</string>
+	<string name="string_set_realtime">设置时间</string>
+	<string name="string_get_hisrecord">历史行车记录</string>
+	<string name="string_clear_hisrecord">清除所有行车数据</string>	
+	<string name="string_get_dtc">读取故障码</string>
+	<string name="string_clr_dtc">清除故障码</string>
+	<string name="string_set_adjust">总里程校准</string>
+	<string name="string_reset">设备初始化</string>
+    <string name="string_exit">退出</string>
+    
+    <string name="string_exit_info">再按一次退出程序</string>
+    <string name="string_odo_info">请输入仪表盘上的总里程</string>
+    
+    <string name="title_modify_rtc">修改时钟</string>
+    <string name="msg_current_rtc">当前时钟</string>
+    <string name="msg_rtc_set_ok">RTC时钟设置成功</string>
+    <string name="lbl_select_date">选择日期</string>
+    
+    <string name="lbl_query_by_date">查询</string>
+    <string name="lbl_query_all">查询所有</string>
+    <string name="msg_get_data">正在获取数据&#8230;</string>
+    <string name="msg_ok">确认</string>
+    <string name="msg_cancel">取消</string>
+    <string name="msg_return">返回</string>
+    
+    <!-- 按键定义 -->
+    <string name="string_start">显示数据</string>
+    <string name="string_stop">关闭显示</string>
+    <string name="string_sysmenu">系统菜单</string>
+    
+    <!-- 显示标题定义 -->
+    <string name="lbl_msg_realtime_listening">实时状态监控</string>
+    <string name="lbl_msg_vihicle_amount">车辆汇总统计</string>
+    <string name="lbl_msg_vihicle_habit">驾驶习惯数据</string>
+    <string name="lbl_msg_device_info">设备信息数据</string>
+    <string name="lbl_msg_vihicle_dtc">汽车故障诊断</string>
+    
+    <!-- 实时监测数据 -->    
+    <string name="lbl_field_bat">电瓶电压</string>
+    <string name="lbl_field_rpm">发动机转速</string>
+    <string name="lbl_field_vss">行驶时速</string>
+    <string name="lbl_field_tp">节气门开度</string>
+    <string name="lbl_field_lod">发动机负荷</string>
+    <string name="lbl_field_ect">冷却液温度</string>
+    <string name="lbl_field_mpg">瞬时油耗</string>
+    <string name="lbl_field_avm">平均油耗</string>
+    <string name="lbl_field_fli">剩余油量</string>
+    <string name="lbl_field_dtn">故障码数量</string>
+    
+    <!-- 车辆统计数据 -->  
+    <string name="lbl_field_dst">本次行驶里程</string>
+    <string name="lbl_field_adst">累计行驶里程</string>
+    <string name="lbl_field_tdst">总里程</string>
+    <string name="lbl_field_fue">本次耗油量</string>
+    <string name="lbl_field_tfue">累计耗油量</string>
+    <string name="lbl_field_acc">本次急加速</string>
+    <string name="lbl_field_dec">本次急减速</string> 
+        
+    <!-- 驾驶习惯数据 -->  
+    <string name="lbl_field_tpc">总点火次数</string>
+    <string name="lbl_field_tpc_times">---- 次</string>
+    <string name="lbl_field_tmt">累计行驶时间</string>
+    <string name="lbl_field_tst">累计怠速时间</string>
+    <string name="lbl_field_awt">平均热车时间</string>
+    <string name="lbl_field_asp">平均车速</string>
+    <string name="lbl_field_msp">最高车速</string>
+    <string name="lbl_field_mrp">最高转速</string>
+    <string name="lbl_field_tacc">累计急加速</string>
+    <string name="lbl_field_tdec">累计急减速</string>
+    
+    <!-- 设备信息数据 -->  
+    <string name="lbl_field_protocol">通讯协议</string>
+    <string name="lbl_field_sn">设备序列号</string>
+    <string name="lbl_field_btname">蓝牙名称</string>
+    <string name="lbl_field_hardver">硬件版本号</string>
+    <string name="lbl_field_softver">软件版本号</string>
+    
+    <!-- 汽车诊断数据 --> 
+    <string name="lbl_field_tcc">故障码个数</string>
+    <string name="lbl_field_tcd">故障代码</string>
+    
+    <!-- 蓝牙模块定义 -->
+    <string name="not_connected">未连接蓝牙设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙设备未打开</string>
+    <string name="title_connecting">正在连接&#8230;</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">未连接</string>
+    <string name="button_scan">搜索设备</string>
+    <string name="scanning">正在搜索设备&#8230;</string>
+    <string name="select_device">选择一个设备进行连接</string>
+    <string name="none_found">未搜索到蓝牙设备</string>    
+    <string name="bluetooth_begin_turing_on">准备打开蓝牙&#8230;</string>
+	<string name="bluetooth_turing_on">正在打开蓝牙&#8230;</string>
+	
+	<!-- 历史行车记录字段定义 -->
+	<string name="his_id">序号</string>
+	<string name="his_start_time">开始时间</string>
+	<string name="his_end_time">结束时间</string>
+	<string name="his_dst">本次里程</string>
+	<string name="his_total_time">总时长</string>
+	<string name="his_time">行驶时长</string>
+	<string name="his_Idle_Time">怠速时长</string>
+	<string name="his_drv_fue">行驶耗油</string>
+	<string name="his_idl_fue">怠速耗油</string>
+	<string name="his_total_fue">总耗油</string>
+	<string name="his_max_vss">最高车速</string>
+	<string name="his_avg_speed">平均车速</string>
+	<string name="his_max_rpm">最高转速</string>
+	<string name="his_hot_time">热车时间</string>
+	<string name="his_speed_up">急加速</string>
+    <string name="his_slow_dwon">急减速</string>
+    
+    <!-- 控制界面按钮文字 -->
+    <string name="string_car_system">进入系统</string>
+    <string name="string_car_window_up">车窗升起</string>
+    <string name="string_car_window_down">车窗下降</string>
+    <string name="string_car_door_lock">车门上锁</string>
+    <string name="string_car_door_unlock">车门解锁</string>
+    <string name="string_car_rearview_open">后视镜打开</string>
+    <string name="string_car_rearview_close">后视镜收起</string>
+    <string name="string_car_trunk_open">后备箱开启</string>
+    
+    <string name="string_car_data">浏览汽车数据</string>
+    
+</resources>

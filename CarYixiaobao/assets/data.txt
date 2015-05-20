@@ -1,0 +1,40 @@
+
+BluetoothService.java 397开始循环读取窜口流数据后按照行解析发送；
+getDataThread.java 类的第39行线程开始读取窜口解析的行数据；
+Mainactivity.java 462行mHandler开始显示数据到UI界面；
+
+
+//数据
+//车辆实时数据
+$OBD-RT length 11 RPS_RT
+//车辆统计数据，默认打开，关闭指令"ATOFF"
+$OBD-AMT length 8 RPS_AMT
+//驾驶习惯数据，发送"ATHBT"指令
+$OBD-HBT length 10 RPS_HBT
+
+
+
+//数据格式
+$name1,data1,data2,data3,data4,data5,data6,data7,data8... ...
+$name2,data1,data2,data3,data4,data5,data6,data7,data8... ...
+$name3,data1,data2,data3,data4,data5,data6,data7,data8... ...
+$name4,data1,data2,data3,data4,data5,data6,data7,data8... ...
+$name5,data1,data2,data3,data4,data5,data6,data7,data8... ...
+ ... ...
+
+===========================================
+Mainactivity.java 218行发送数据给蓝牙；
+
+ATHBT\r\n
+ATI\r\n
+ATDTC\r\n
+//清除故障码之后，自动再发送一次读取故障码指令
+ATCDI\r\n
+//清空当前时钟
+"ATNOW\r\n"
+ATSOFF\r\n
+ATSON\r\n
+ATZ\r\n
+//获取所有记录
+ATHISA\r\n
+

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+ <item android:id="@+id/menu_bt_config" android:icon="@drawable/ic_bt_small" android:title="@string/string_btconfig"></item>
+
+  <item android:id="@+id/menu_get_hbt" android:icon="@drawable/ic_habit_small" android:title="@string/string_get_hbt"></item>
+  <item android:id="@+id/menu_get_device" android:icon="@drawable/ic_device_small" android:title="@string/string_get_device"></item>  
+   <item android:id="@+id/menu_get_dtc" android:icon="@drawable/ic_dtc_read" android:title="@string/string_get_dtc"></item>
+  <item android:id="@+id/menu_clr_dtc" android:icon="@drawable/ic_dtc_clear" android:title="@string/string_clr_dtc"></item>  
+  <item android:id="@+id/menu_get_realtime" android:icon="@drawable/ic_cur_time_small" android:title="@string/string_get_realtime"></item>
+  <item android:id="@+id/menu_set_realtime" android:icon="@drawable/ic_set_time_small" android:title="@string/string_set_realtime"></item>
+  <item android:id="@+id/menu_get_hisrecord" android:icon="@drawable/ic_cur_time_small" android:title="@string/string_get_hisrecord"></item>
+  <item android:id="@+id/menu_clear_hisrecord" android:icon="@drawable/ic_cur_time_small" android:title="@string/string_clear_hisrecord"></item>  
+    <item android:id="@+id/menu_close_amt" android:icon="@drawable/ic_close_small"  android:title="@string/string_close_amt"></item>
+  <item android:id="@+id/menu_open_amt" android:icon="@drawable/ic_open_small" android:title="@string/string_open_amt"></item>
+  
+  <item android:id="@+id/menu_set_adj" android:icon="@drawable/ic_adjust_small" android:title="@string/string_set_adjust"></item> 
+  <item android:id="@+id/menu_reset" android:icon="@drawable/ic_reset_small" android:title="@string/string_reset"></item>
+ <item android:id="@+id/menu_appexit" android:icon="@drawable/ic_exit_small" android:title="@string/string_exit"></item>
+ 
+</menu>
